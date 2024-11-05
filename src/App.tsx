@@ -1,5 +1,6 @@
 import { useRoutes } from "react-router-dom";
 import StoreData from "./components/StoreData/StoreData";
+import Cart from "./components/Cart/Cart";
 
 function App() {
   const routes = useRoutes([
@@ -9,6 +10,7 @@ function App() {
     },
     {
       path: "/cart",
+      element: <Cart />,
     },
   ]);
 

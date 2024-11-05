@@ -132,6 +132,7 @@ const StoreData = () => {
       <div className="container mx-auto">
         <div>
           <i className="fa-solid fa-cart-shopping"></i>
+          <span>Giỏ hàng</span>
         </div>
         <div className="filter-data space-y-3">
           <h3>
